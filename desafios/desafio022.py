@@ -16,6 +16,6 @@ first_name_length = len(name_split[0])
 
 print('Seu nome em maiúsculas é {}.'.format(name_uppercase))
 print('Seu nome em minúsculas é {}.'.format(name_lowercase))
-print('{} tem ao todo {} letras.'.format(name, name_length))
+print('Seu nome completo é {} e ele tem ao todo {} letras.'.format(name, name_length))
 print('Seu primeiro nome é {} e ele tem {} letras.'.format(
     name_split[0], first_name_length))
