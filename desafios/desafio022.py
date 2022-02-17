@@ -4,15 +4,17 @@
 # > Quantas letras ao todo(sem considerar espaços).
 # > Quantas letras tem o primero nome.
 
-name = input('Informe seu nome completo: ')
+name = input('Informe seu nome completo: ').strip()
 print('Analisando seu nome...')
 
 name_uppercase = name.upper()
 name_lowercase = name.lower()
 name_split = name.split()
-join_name = ''.join(name_split)
-name_length = len(join_name)
+name_length = len(''.join(name_split))
 first_name_length = len(name_split[0])
+# name_length = len(name) - name.count(' ')
+# first_name = name.split()[0]
+# first_name_length = len(first_name)
 
 print('Seu nome em maiúsculas é {}.'.format(name_uppercase))
 print('Seu nome em minúsculas é {}.'.format(name_lowercase))

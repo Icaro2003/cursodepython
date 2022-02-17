@@ -3,11 +3,10 @@
 # Ex: Ana Maria de Souza
 # primeiro=Ana
 # último=Souza
-nome_completo = input('Informe seu nome completo: ')
-nome_completo_dividido = nome_completo.split()
-qtd_nome_completo = len(nome_completo_dividido)
+name = str(input('Informe seu nome completo: '))
+name_split = name.split()
+first_name = name_split[0]
+last_name = name_split[len(name_split) - 1]
 
-nome = nome_completo_dividido[0]
-print('Seu nome é: {}'.format(nome))
-sobrenome = nome_completo_dividido[qtd_nome_completo - 1]
-print('Seu sobrenome: {}'.format(sobrenome))
+print('Seu primeiro nome é {}'.format(first_name))
+print('Seu sobrenome é {}'.format(len(last_name)))

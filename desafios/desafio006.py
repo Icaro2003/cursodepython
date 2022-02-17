@@ -1,4 +1,4 @@
-num = int(input('Digite um número: '))
+num = int(str(input('Digite um número: ')))
 double = num * 2
 triple = num * 3
 squareroot = num ** (1/2)

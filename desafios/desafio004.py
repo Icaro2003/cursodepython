@@ -1,4 +1,4 @@
-any = input('Digite algo: ')
+any = str(input('Digite algo: '))
 
 print('O tipo primitivo desse valor é: {}'.format(type(any)))
 print('Só tem espaços? {}'.format(any.isspace()))

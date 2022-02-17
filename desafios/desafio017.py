@@ -3,9 +3,10 @@
 from math import sqrt
 # from math import hypot
 
-co = float(input('Informe o comprimento do cateto oposto do triângulo retângulo: '))
+co = float(
+    str(input('Informe o comprimento do cateto oposto do triângulo retângulo: ')))
 ca = float(
-    input('Informe o comprimento do cateto adjacente do triângulo retângulo: '))
+    str(input('Informe o comprimento do cateto adjacente do triângulo retângulo: ')))
 h = sqrt((co ** 2) + (ca ** 2))
 # h = hypot(co, ca)
 

@@ -2,7 +2,7 @@
 
 from math import sin, cos, tan, radians
 
-angulo_graus = float(input('Informe um ângulo em graus: '))
+angulo_graus = float(str(input('Informe um ângulo em graus: ')))
 angulo_radianos = radians(angulo_graus)
 
 print('\nO ângulo de {}º tem o SENO de {:.2f}º'.format(

@@ -1,6 +1,6 @@
-nome = input('Digite o nome do aluno: ')
-n1 = float(input('Digite a primeira nota: '))
-n2 = float(input('Digite a segunda nota: '))
+nome = str(input('Digite o nome do aluno: '))
+n1 = float(str(input('Digite a primeira nota: ')))
+n2 = float(str(input('Digite a segunda nota: ')))
 addition = n1 + n2
 m = addition / 2
 
