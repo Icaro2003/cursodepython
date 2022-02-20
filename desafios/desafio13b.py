@@ -1,4 +1,4 @@
-produto = float(str(input('Digite o preço do produto: R$ '))
+produto = float(input('Digite o preço do produto: R$ '))
 produto_vista=produto - ((produto * 10) / 100)
 produto_prazo=produto + ((produto * 8) / 100)
 
