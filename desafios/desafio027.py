@@ -8,5 +8,6 @@ name_split = name.split()
 first_name = name_split[0]
 last_name = name_split[len(name_split) - 1]
 
+print('Muito prazer em te conhecer!')
 print('Seu primeiro nome é {}'.format(first_name))
-print('Seu sobrenome é {}'.format(last_name))
+print('Seu último nome é {}'.format(last_name))
