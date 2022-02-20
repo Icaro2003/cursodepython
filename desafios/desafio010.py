@@ -1,4 +1,4 @@
-brl = float(str(input('Quanto você tem em na carteira? R$  '))
+brl = float(input('Quanto você tem em na carteira? R$  '))
 usd=brl / 5.37
 eur=brl / 5.98
 jpy=brl * 21.48
