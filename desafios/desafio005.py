@@ -1,4 +1,4 @@
-number = int(str(input('Digite um número? '))
+number = int(str(input('Digite um número? ')))
 predecessor=number - 1
 successor=number + 1
 
