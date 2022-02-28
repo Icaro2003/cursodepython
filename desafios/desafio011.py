@@ -1,5 +1,5 @@
-width = float(str(input('Informe a largura da parede: ')))
-height = float(str(input('Informe a altura da parede: ')))
+width = float(input('Informe a largura da parede: '))
+height = float(input('Informe a altura da parede: '))
 area = width * height
 ink_liter = area / 2
 

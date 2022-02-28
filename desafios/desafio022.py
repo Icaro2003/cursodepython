@@ -4,7 +4,7 @@
 # > Quantas letras ao todo(sem considerar espaços).
 # > Quantas letras tem o primero nome.
 
-name = input('Informe seu nome completo: ').strip()
+name = str(input('Informe seu nome completo: ')).strip()
 print('Analisando seu nome...')
 
 name_uppercase = name.upper()
