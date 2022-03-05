@@ -1,6 +1,7 @@
 # Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
 
 from math import sqrt
+from colorama import Fore
 # from math import hypot
 
 co = float(
@@ -10,4 +11,5 @@ ca = float(
 h = sqrt((co ** 2) + (ca ** 2))
 # h = hypot(co, ca)
 
-print('Com o cateto oposto medindo {} e o cateto adjacente {}, a hipotenusa vai medir {:.2f}.'.format(co, ca, h))
+print('Com o cateto oposto medindo {}{}{} e o cateto adjacente {}{}{}, a hipotenusa vai medir {}{:.2f}{}.'.format(
+    Fore.BLUE, co, Fore.RESET, Fore.BLUE, ca, Fore.RESET, Fore.RED, h, Fore.RESET))

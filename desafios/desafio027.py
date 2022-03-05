@@ -3,11 +3,16 @@
 # Ex: Ana Maria de Souza
 # primeiro=Ana
 # último=Souza
+
+from colorama import Fore, Style
+
 name = str(input('Informe seu nome completo: '))
 name_split = name.split()
 first_name = name_split[0]
 last_name = name_split[len(name_split) - 1]
 
 print('Muito prazer em te conhecer!')
-print('Seu primeiro nome é {}'.format(first_name))
-print('Seu último nome é {}'.format(last_name))
+print('Seu primeiro nome é {}{}{}{}'.format(
+    Style.BRIGHT, Fore.BLUE, first_name, Style.RESET_ALL))
+print('Seu último nome é {}{}{}{}'.format(
+    Style.BRIGHT, Fore.BLUE, last_name, Style.RESET_ALL))

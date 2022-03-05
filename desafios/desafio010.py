@@ -1,6 +1,5 @@
 from colorama import Style, Fore
 
-
 brl = float(input('Quanto você tem em na carteira? R$  '))
 usd = brl / 5.37
 eur = brl / 5.98
